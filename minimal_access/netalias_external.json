@@ -3,7 +3,7 @@
   "desc": "",
   "addresses": [
     {
-      "member": "srv09",
+      "member": "sbc02",
       "listen": "XX.XX.XX.XX",
       "advertise": "XX.XX.XX.XX"
     }
