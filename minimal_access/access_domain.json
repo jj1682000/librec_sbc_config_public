@@ -1,5 +1,5 @@
 {
-  "domain": "your-fqdn-dns-name",
+  "domain": "sbc02.sample.com",
   "srcsocket": {
     "transport": "udp",
     "ip": "127.0.0.1",
