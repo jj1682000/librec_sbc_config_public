@@ -1,4 +1,4 @@
-### SIP Client(Linphone)
+### User, (SIP Client, Linphone)
 
 * Username: 1000
 * SIP Domain: sbc02.sample.com:5060
