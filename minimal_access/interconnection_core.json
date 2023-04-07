@@ -10,7 +10,7 @@
     }
   ],
   "rtpaddrs": [
-    "192.168.122.253"
+    "10.101.8.2/32"
   ],
   "media_class": "media_class_pcma",
   "capacity_class": "capacity_default",
