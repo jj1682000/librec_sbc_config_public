@@ -1,5 +1,5 @@
 {
-  "domain": "your-fqdn-dns-name",
+  "domain": "sbc02.sample.com",
   "id": "testuser",
-  "secret": "iwoefyj2397"
+  "secret": "test12345"
 }
