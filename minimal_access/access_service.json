@@ -27,6 +27,6 @@
   "blackips": [],
   "whiteips": [],
   "domains": [
-    "your-fqdn-dns-name"
+    "sbc02.sample.com"
   ]
 }
