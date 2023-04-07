@@ -1,0 +1,10 @@
+{
+    "name": "defaultname",
+    "members": [
+        "sbc02"
+    ],
+    "rtp_start_port": 10000,
+    "rtp_end_port": 60000,
+    "max_calls_per_second": 200,
+    "max_concurrent_calls": 6000
+}
