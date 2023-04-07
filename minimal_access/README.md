@@ -13,6 +13,7 @@
 
 ### FreeSWITCH as a PBX
 
+* Using defaut configuration
 * Internal: 10.101.7.11 port 5080 udp
 
 ### How to
