@@ -3,7 +3,7 @@
   "desc": "",
   "addresses": [
     {
-      "member": "srv09",
+      "member": "sbc02",
       "listen": "127.0.0.1",
       "advertise": "127.0.0.1"
     }
