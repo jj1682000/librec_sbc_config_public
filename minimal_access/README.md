@@ -1,3 +1,8 @@
+### Topology:
+
+Public-IP (User) ---> Public IP (LibreSBC) ---> Private IP (LibreSBC) ----> Private IP (FreeSWITCH as a PBX).
+
+
 ### User, (SIP Client, Linphone)
 
 * Username: 1000
@@ -17,10 +22,6 @@
 * Internal: 10.101.7.11 port 5080 udp
 
 ### How to
-
-Topology:
-
-Public-IP (User) ---> Public IP (LibreSBC) ---> Private IP (LibreSBC) ----> Private IP (FreeSWITCH as a PBX).
 
 Here are some summary steps need to be done on LibreSBC
 
