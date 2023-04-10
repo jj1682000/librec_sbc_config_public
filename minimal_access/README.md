@@ -7,14 +7,12 @@ Public-IP (Internet user) ---> Public IP (LibreSBC) ---> Private IP (LibreSBC) -
 
 * Username: 1000
 * SIP Domain: sbc02.sample.com:5060
-* Password: the password of Username
 * Transport: UDP
 
 ### Internal user, (SIP Client, Linphone)
 
 * Username: 1001, 1002
 * SIP Domain: pbx02.sample.com:5060
-* Password: the password of Username
 * Transport: UDP
 
 ### LibreSBC
