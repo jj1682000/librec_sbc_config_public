@@ -1,17 +1,17 @@
 ### Topology:
 
-Public-IP (Internet user) ---> Public IP (LibreSBC) ---> Private IP (LibreSBC) ----> Private IP (FreeSWITCH as a PBX) <--- Private IP (Internal user)
+![image](./images/Topology.PNG)
 
 
 ### Internet user, (SIP Client, Linphone)
 
-* Username: 1000
+* Username: testuser, testuser01
 * SIP Domain: sbc02.sample.com:5060
 * Transport: UDP
 
 ### Internal user, (SIP Client, Linphone)
 
-* Username: 1001, 1002
+* Username: 1000, 1001
 * SIP Domain: pbx02.sample.com:5060
 * Transport: UDP
 
@@ -22,15 +22,15 @@ Public-IP (Internet user) ---> Public IP (LibreSBC) ---> Private IP (LibreSBC) -
 * Internet DNS: sbc02.sample.com
 * Private ip: 10.101.8.2
 
-### FreeSWITCH as a PBX
+### PBX(FreeSWITCH)
 
 * Using defaut configuration
-* Internal: 10.101.7.11 port 5080 udp
+* Internal: 10.101.7.11
 * Internal DNS: pbx02.sample.com
 
-### test internal call between 2 exts(1001, 1002)
+### test internal call between 2 exts(1000, 1001)
 
-* Done
+* It is ok.
 
 ### How to
 
