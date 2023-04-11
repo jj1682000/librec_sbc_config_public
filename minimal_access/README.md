@@ -28,7 +28,7 @@
 * SIP Domain: freeswicth01.sample.com:5060
 * Transport: UDP
 
-### test internal call between 2 ext 1000 and 1001
+### test internal call between ext 1000 and 1001
 
 * It is ok.
 
