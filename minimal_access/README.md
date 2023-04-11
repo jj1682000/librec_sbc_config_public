@@ -1,6 +1,6 @@
 ### Topology:
 
-![image](./images/Topology.PNG)
+![image](./images/topology.jpg)
 
 
 ### Internet user, (SIP Client, Linphone)
