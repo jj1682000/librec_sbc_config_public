@@ -2,19 +2,6 @@
 
 ![image](./images/topology.jpg)
 
-
-### Internet user, (SIP Client, Linphone)
-
-* Username: testuser, testuser01
-* SIP Domain: sbc02.sample.com:5060
-* Transport: UDP
-
-### Internal user, (SIP Client, Linphone)
-
-* Username: 1000, 1001
-* SIP Domain: pbx02.sample.com:5060
-* Transport: UDP
-
 ### LibreSBC
 
 * Node: sbc02
@@ -25,10 +12,23 @@
 ### PBX(FreeSWITCH)
 
 * Using defaut configuration
-* Internal: 10.101.7.11
-* Internal DNS: pbx02.sample.com
+* Default account: 1000-1019
+* Internal: 10.101.7.1
+* Internal DNS: freeswicth01.sample.com
 
-### test internal call between 2 exts(1000, 1001)
+### Internet user, (SIP Client, Linphone)
+
+* Username: testuser, testuser01
+* SIP Domain: sbc02.sample.com:5060
+* Transport: UDP
+
+### Internal user, (SIP Client, Linphone)
+
+* Username: 1000, 1001
+* SIP Domain: freeswicth01.sample.com:5060
+* Transport: UDP
+
+### test internal call between 2 ext 1000 and 1001
 
 * It is ok.
 
