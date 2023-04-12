@@ -1,8 +1,8 @@
-### Topology:
+# Topology
 
 ![image](./images/topology1.jpg)
 
-### LibreSBC
+# LibreSBC
 
 * Node: sbc02
 * Public ip: XX.XX.XX.XX
@@ -10,20 +10,24 @@
 * Private ip: 10.101.8.2
 * Access User Directory: testuser, testuser01
 
-### PBX(FreeSWITCH)
+## Config
+
+![image](./images/config.jpg)
+
+# PBX(FreeSWITCH)
 
 * Using defaut configuration
 * Default account: 1000-1019
 * Internal: 10.101.7.1
 * Internal DNS: freeswicth01.sample.com
 
-### Internet user, (SIP Client, Linphone)
+# Internet user, (SIP Client, Linphone)
 
 * Username: testuser, testuser01
 * SIP Domain: sbc02.sample.com:5060
 * Transport: UDP
 
-### Internal user, (SIP Client, Linphone)
+# Internal user, (SIP Client, Linphone)
 
 * Username: 1000, 1001
 * SIP Domain: freeswicth01.sample.com:5060
@@ -33,7 +37,7 @@
 
 * It is ok.
 
-### How to
+# How to
 
 Here are some summary steps need to be done on LibreSBC
 
@@ -44,7 +48,7 @@ Here are some summary steps need to be done on LibreSBC
 5. Routing Table: /libreapi/routing/table with action=route and routes=<outbound-connection-in-step-4>
 6. For Public-IP (User) ---> Public IP (libresbc) = libreapi/interconnection/inbound
 
-### access config
+# access config
 
 * access_domain.json
 * access_service.json
