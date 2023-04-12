@@ -8,6 +8,7 @@
 * Public ip: XX.XX.XX.XX
 * Internet DNS: sbc02.sample.com
 * Private ip: 10.101.8.2
+* Access User Directory: testuser, testuser01
 
 ### PBX(FreeSWITCH)
 
