@@ -8,7 +8,7 @@
 * Public ip: XX.XX.XX.XX
 * Internet DNS: sbc02.sample.com
 * Private ip: 10.101.8.2
-* Access User Directory: testuser, testuser01
+* Access User Directory: 1005-1009
 
 ## Config
 
@@ -20,12 +20,6 @@
 * Default account: 1000-1019
 * Internal: 10.101.7.2
 * Internal DNS: freeswicth02.sample.com
-
-# Internet user, (SIP Client, Linphone)
-
-* Username: 1005-1009
-* SIP Domain: sbc02.sample.com:5060
-* Transport: UDP
 
 ### test internal call between ext 1000 and 1001
 
