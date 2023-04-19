@@ -1,6 +1,6 @@
 # Topology
 
-![image](./images/topology1.jpg)
+![image](./images/topology2.jpg)
 
 # LibreSBC
 
@@ -12,7 +12,7 @@
 
 ## Config
 
-![image](./images/config.jpg)
+![image](./images/config2.jpg)
 
 # PBX(FreeSWITCH)
 
